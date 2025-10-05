@@ -17,6 +17,9 @@
         $grade = "F";
     }
     echo "<h1>Simple Grading System</h1>";
+    echo "Math: $math<br>";
+    echo "English: $english<br>";
+    echo "Science: $science<br>";
     echo "Average Score: $average<br>";
     echo "Grade: $grade<br>";
 ?>
