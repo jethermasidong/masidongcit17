@@ -1,7 +1,12 @@
-<?php
-    $name = "Jether";
-    $age = 20;
-    $color = "blue";
-    echo "<h2>Hi, I'm $name, I am $age years old, and my favorite color is $color.</h2>";
+<html>
+<body>
 
-?>
+    <form action="introduceform.php" method="POST">
+    Name: <input type="text" name="name"><br>
+    Age: <input type="text" name="age"><br>
+    Color: <input type="text" name="color"><br>
+    <input type="submit">
+    </form>
+
+</body>
+</html>
