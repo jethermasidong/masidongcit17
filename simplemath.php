@@ -1,14 +1,11 @@
-<?php
-    $a = 25;
-    $b = 35;
+<html>
+<body>
 
-    $sum = $a + $b;
-    $difference = $a - $b;
-    $product = $a * $b;
-    $quotient = $a / $b;
-    echo "<h1>Simple Math</h1>";
-    echo "<p> Sum of $a and $b is <strong> $sum </strong><br></p>";
-    echo "<p> Difference of $a and $b is <strong> $difference </strong><br></p>";
-    echo "<p> Product of $a and $b is <strong> $product </strong><br></p>";
-    echo "<p> Quotient of $a and $b is <strong>$quotient </strong><br></p>";
-?>
+    <form action="simplemathform.php" method="POST">
+    FirstNumber: <input type="text" name="number1"><br>
+    SecondNumber: <input type="text" name="number2"><br>
+    <input type="submit">
+    </form>
+
+</body>
+</html>
