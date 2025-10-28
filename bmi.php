@@ -12,6 +12,7 @@
     Weight (kg): <input type="number" name="weight" step="0.1" required><br><br>
     Height (m): <input type="number" name="height" step="0.01" required><br><br>
     <input type="submit" name="calculate" value="Calculate BMI">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

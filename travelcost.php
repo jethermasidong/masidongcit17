@@ -13,6 +13,7 @@
     Fuel Consumption (km per liter): <input type="number" name="fuel_consumption" step="0.1" required><br><br>
     Fuel Price (PHP per liter): <input type="number" name="fuel_price" step="0.01" required><br><br>
     <input type="submit" name="calculate" value="Calculate Cost">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

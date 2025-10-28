@@ -12,6 +12,7 @@
     Enter amount in PHP: 
     <input type="number" name="php_amount" step="0.01" required><br><br>
     <input type="submit" name="convert" value="Convert">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

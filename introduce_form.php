@@ -13,6 +13,7 @@
     Age: <input type="number" name="age" required><br><br>
     Favorite Color: <input type="text" name="color" required><br><br>
     <input type="submit" value="Submit">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php
@@ -22,6 +23,7 @@
       $color = $_POST['color'];
 
       echo "<h2>Hi, I'm $name, I am $age years old, and my favorite color is $color.</h2>";
+
   }
   ?>
 

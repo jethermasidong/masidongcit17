@@ -12,6 +12,7 @@
     Enter a sentence:<br>
     <input type="text" name="sentence" size="50" required><br><br>
     <input type="submit" name="process" value="Submit">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

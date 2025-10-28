@@ -13,6 +13,7 @@
     Allowance: <input type="number" name="allowance" required><br><br>
     Deduction: <input type="number" name="deduction" required><br><br>
     <input type="submit" name="calculate" value="Calculate Salary">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

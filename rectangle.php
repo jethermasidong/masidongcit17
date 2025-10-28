@@ -12,6 +12,7 @@
     Length: <input type="number" name="length" step="0.1" required><br><br>
     Width: <input type="number" name="width" step="0.1" required><br><br>
     <input type="submit" name="calculate" value="Calculate">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

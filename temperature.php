@@ -13,6 +13,7 @@
     <input type="number" name="celsius" id="celsius" step="0.1" required><br><br>
 
     <input type="submit" name="convert" value="Convert to Fahrenheit">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

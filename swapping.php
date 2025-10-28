@@ -16,6 +16,7 @@
     <input type="number" name="b" id="b" required><br><br>
 
     <input type="submit" name="swap" value="Swap Values">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

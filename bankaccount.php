@@ -13,6 +13,7 @@
     Deposit Amount: <input type="number" name="deposit" required><br><br>
     Withdraw Amount: <input type="number" name="withdraw" required><br><br>
     <input type="submit" name="process" value="Submit">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php

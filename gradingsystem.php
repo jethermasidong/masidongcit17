@@ -13,6 +13,7 @@
     English: <input type="number" name="english" required><br><br>
     Science: <input type="number" name="science" required><br><br>
     <input type="submit" name="compute" value="Compute Grade">
+    <button type="button" onclick="window.location.href='index.php'">Go Back</button>
   </form>
 
   <?php
